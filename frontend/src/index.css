@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #20231d;
+  --color-paper: #f5f5f0;
+  --color-lime: #cbf36a;
+  --color-forest: #163d30;
+  --font-sans: "DM Sans", "Segoe UI", sans-serif;
+  --font-display: "Space Grotesk", "DM Sans", sans-serif;
+  --font-mono: "DM Mono", monospace;
+}
+
+html { min-width: 320px; scroll-behavior: smooth; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button, a { font: inherit; }
+button:focus-visible, a:focus-visible { outline: 3px solid #6d8d27; outline-offset: 3px; }
